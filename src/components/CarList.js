@@ -1,9 +1,5 @@
 function CarList() {
-  return (
-    <div className="App">
-      <header className="App-header"></header>
-    </div>
-  );
+  return <div className="App">list </div>;
 }
 
 export default CarList;

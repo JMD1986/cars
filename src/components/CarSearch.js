@@ -1,9 +1,5 @@
 function CarSearch() {
-  return (
-    <div className="App">
-      <header className="App-header"></header>
-    </div>
-  );
+  return <div className="App">search </div>;
 }
 
 export default CarSearch;

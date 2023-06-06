@@ -1,9 +1,5 @@
 function CarForm() {
-  return (
-    <div className="App">
-      <header className="App-header"></header>
-    </div>
-  );
+  return <div className="App">form </div>;
 }
 
 export default CarForm;

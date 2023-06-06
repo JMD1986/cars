@@ -1,9 +1,5 @@
 function CarValue() {
-  return (
-    <div className="App">
-      <header className="App-header"></header>
-    </div>
-  );
+  return <div className="App">Car Value </div>;
 }
 
 export default CarValue;
