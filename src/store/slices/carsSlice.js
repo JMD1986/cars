@@ -19,7 +19,7 @@ const carSlice = createSlice({
     },
     removeCar(state, action) {
       const update = state.cars.filter((car) => {
-        return action.payload.id !== car.id;
+        return action.payload !== car.id;
       });
       state.cars = update;
     },
